@@ -89,5 +89,6 @@
         "stop_token": "cpp",
         "syncstream": "cpp",
         "variant": "cpp"
-    }
+    },
+    "cmake.configureOnOpen": false
 }
