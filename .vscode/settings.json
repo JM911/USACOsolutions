@@ -88,7 +88,8 @@
         "stacktrace": "cpp",
         "stop_token": "cpp",
         "syncstream": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "format": "cpp"
     },
     "cmake.configureOnOpen": false
 }
