@@ -1,2 +1,14 @@
+# For test
 Practice.cpp
 Practice.exe
+
+# 루트 폴더에 Practice.cpp 만들어서 사용
+# test 폴더와 Template.cpp 파일의 변경사항들이 잡힐 경우 아래 명령어 입력하면 편함
+# git update-index --assume-unchanged test/test.in
+# git update-index --assume-unchanged test/test.out
+# git update-index --assume-unchanged Template.cpp
+
+# 다시 추적하고 싶을 경우 아래 명령어 사용
+# git update-index --no--assume-unchanged test/test.in
+# git update-index --no--assume-unchanged test/test.out
+# git update-index --no-assume-unchanged Template.cpp
